@@ -2,7 +2,14 @@
 
 <ul>
 	<li>
-		<b>Title:</b> {{ paper.title }}
+		<b>Title:</b> 
+		{% if article.doi != null %}
+		<a href="{{ article.doi }}">
+		{% endif %}
+		{{ paper.title }}
+		{% if article.doi != null %}
+		</a>
+		{% endif %}
 	</li>
 	<li>
 		<b>Authors:</b>
