@@ -17,6 +17,6 @@
 		<a href="{{ paper.data.doi }}">{{ paper.data.doi }}</a>
 	</li>	
 </ul>
-
+<hr/>
 
 {% endfor %}
