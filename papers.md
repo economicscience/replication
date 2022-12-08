@@ -7,4 +7,4 @@
 </ul>
 
 
-{% endfor }
+{% endfor %}
