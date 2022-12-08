@@ -3,11 +3,11 @@
 <ul>
 	<li>
 		<b>Title:</b> 
-		{% if article.doi != null %}
-		<a href="{{ article.doi }}">
+		{% if paper.article.doi != null %}
+		<a href="{{ paper.article.doi }}">
 		{% endif %}
 		{{ paper.title }}
-		{% if article.doi != null %}
+		{% if paper.article.doi != null %}
 		</a>
 		{% endif %}
 	</li>
