@@ -6,9 +6,10 @@
 	</li>
 	<li>
 		<b>Authors:</b>
-		{% for author in paper.authors %}
 		<ul>
+			{% for author in paper.authors %}
 			<li>{{ author.name }}</li>
+			{% endfor %} 
 		</ul>
 	</li>
 	<li>
